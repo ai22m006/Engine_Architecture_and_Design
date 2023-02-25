@@ -6,6 +6,10 @@ extern Engine::Application* Engine::CreateApplication();
 
 int main(int argc, char** argv)
 {
+	Engine::Log::Init();
+	E_CORE_WARN("Initialized Log!");
+	E_INFO("Hello! Var={0}", 5);
+	
 	printf("My Engine!\n");
 	auto app = Engine::CreateApplication();
 	app->Run();
