@@ -1,3 +1,4 @@
+#include "epch.h"
 #include "Log.h"
 
 namespace Engine
