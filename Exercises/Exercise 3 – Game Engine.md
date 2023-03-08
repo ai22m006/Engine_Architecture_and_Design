@@ -6,11 +6,12 @@ In a static library, the code is compiled into a library file that is linked dir
 
 In a dynamic linked library, the code is compiled into a separate file that is linked to the executable at runtime. This means that the executable is smaller, but requires the DLL to be present on the system in order to run. The DLL can be updated without requiring a recompilation of the executable, making it easier to patch security vulnerabilities or fix bugs.
 
-### Description of a logging system:
-A logging system is a software component that records events and messages that occur within a software application. These events and messages can include errors, warnings, information about user actions, or any other important information that can help diagnose problems or understand how the application is being used.
-Logging systems typically write the information they capture to a file or database, where it can be reviewed by developers or system administrators. They may also provide real-time alerts or notifications when certain events occur, such as errors or critical warnings.
+### Description of a event system:
+The event system allows for decoupling of software components and promotes loose coupling, scalability, and flexibility. When an event is generated, it is sent to the event bus, which broadcasts it to all subscribed consumers. Consumers can then take appropriate actions based on the received event. This allows different parts of a system to be developed and maintained independently, promoting better modularity and maintainability.
 
-A good logging system should be configurable, allowing developers to choose which events to log and how much detail to include. It should also be reliable and efficient, so that it doesn't impact the performance of the application or the system it is running on.
+Main components:
+Event producers - These are the components that generate events, such as user input, network events, or system notifications.
+Event consumers - These are the components that receive and handle events. They may perform various actions based on the type of event they receive.
 
 ### What is a Design Pattern?
 A design pattern is a reusable solution to a common software design problem. It is a way of organizing code and functionality in a way that is easy to understand, maintain, and extend. Design patterns are often described as templates for solving common software design problems.
