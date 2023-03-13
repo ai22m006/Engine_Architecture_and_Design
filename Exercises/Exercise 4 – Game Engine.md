@@ -1,6 +1,6 @@
-##Questions
+## Questions
 
-###What is a precompiled header? Name pros and cons:
+### What is a precompiled header? Name pros and cons:
 A precompiled header is a file that contains compiled code from header files that are frequently used in a software project. The purpose of a precompiled header is to speed up the compilation process by avoiding the repeated parsing and compilation of header files that are used in multiple source files. When the precompiled header is used in a source file, the compiler can skip the parsing and compilation of the header files and directly use the precompiled code.
 
 Pros of using a precompiled header:
@@ -14,14 +14,14 @@ Increased build time for the first compilation, as the precompiled header needs 
 Potential for increased disk usage, as the precompiled header needs to be stored
 Potential for increased complexity, as the precompiled header needs to be maintained and updated
 
-###Describe the layer of abstraction with your own words:
+### Describe the layer of abstraction with your own words:
 A layer of abstraction refers to a conceptual level of a software system that hides the implementation details of lower-level components from the higher-level components. In other words, it provides a simplified view of the system that enables easier understanding, maintenance, and modification.
 
 Each layer of abstraction is responsible for providing a specific set of services to the layer above it, while relying on the services provided by the layer below it. By abstracting away the details of lower-level components, higher-level components can focus on their specific tasks without having to worry about the intricacies of the underlying system.
 
 For example, in a web application, the front-end layer may provide a simple interface for users to interact with the application, while relying on the back-end layer to handle the storage, processing, and retrieval of data. The front-end layer does not need to know how the back-end layer works, but instead relies on the services it provides.
 
-###Name the SOLID principles and describe them briefly:
+### Name the SOLID principles and describe them briefly:
 The SOLID principles are a set of guidelines for writing maintainable and extensible object-oriented code. They are as follows:
 
 Single Responsibility Principle (SRP): A class should have only one reason to change, meaning it should have a single responsibility or task.
