@@ -19,8 +19,6 @@ A layer of abstraction refers to a conceptual level of a software system that hi
 
 Each layer of abstraction is responsible for providing a specific set of services to the layer above it, while relying on the services provided by the layer below it. By abstracting away the details of lower-level components, higher-level components can focus on their specific tasks without having to worry about the intricacies of the underlying system.
 
-For example, in a web application, the front-end layer may provide a simple interface for users to interact with the application, while relying on the back-end layer to handle the storage, processing, and retrieval of data. The front-end layer does not need to know how the back-end layer works, but instead relies on the services it provides.
-
 ### Name the SOLID principles and describe them briefly:
 The SOLID principles are a set of guidelines for writing maintainable and extensible object-oriented code. They are as follows:
 
